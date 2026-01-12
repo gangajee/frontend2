@@ -1,0 +1,59 @@
+.footer_frame {
+  background-color: #2b3d8b;
+  color: white;
+
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 150px 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_columns {
+  justify-items: center;
+}
+
+.footer_columns h2 {
+  margin-bottom: 10px;
+}
+
+.footer_columns p {
+  margin-bottom: 4px;
+}
+
+.footer_button button {
+  background-color: #2b3d8b;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.footer_button a:link,
+.footer_button a:visited {
+  text-decoration: none;
+}
+
+.footer_button a button:hover {
+  color: orange;
+}
+
+.FAQ {
+  padding: 0 10px;
+}
+
+.footer_bottom {
+  grid-column: 1 / -1;
+  align-self: center;
+}
+
+.footer_bottom hr {
+  margin: 10px 0;
+}
+
+.footer_bottom p {
+  text-align: center;
+}

@@ -1,0 +1,84 @@
+.product_header {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.count_product {
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.dropdown {
+  margin-right: 30px;
+  position: relative;
+  top: 0;
+  left: -30px;
+}
+
+.dropdown button {
+  font-size: 15px;
+  background-color: white;
+  border: 2px solid #dadada;
+  padding: 5px 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+
+  background-color: white;
+  min-width: 120px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px #0000001a;
+  padding: 10px 0;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content li {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.dropdown-content li:hover {
+  background-color: #f1f1f1;
+}
+
+.product {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 200px 200px;
+}
+
+.button_setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.more_button {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #2b3d8b;
+  color: white;
+  border: 3px solid white;
+  border-radius: 7px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.more_button:hover {
+  background-color: white;
+  color: #2b3d8b;
+  border: 3px solid #2b3d8b;
+  border-radius: 7px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.product_category {
+  margin: 15px 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.product_category button {
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.product_category button:not(:first-child):hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.entire {
+  background-color: #2b3d8b;
+  color: white;
+}
