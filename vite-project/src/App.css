@@ -4,3 +4,16 @@
   font-family: "Noto Sans KR", sans-serif;
   box-sizing: border-box;
 }
+
+.abPosition {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 1000;
+}
+
+.contentWrapper {
+  padding-top: 180px;
+}

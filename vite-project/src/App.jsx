@@ -8,15 +8,19 @@ import Search from "./components/Search/Search";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Search />
-      <Category />
-      <hr />
-      <Product_header />
-      <Product />
-      <Footer />
-    </>
+    <div className="allMain">
+      <div className="abPosition">
+        <Header />
+        <Search />
+      </div>
+      <div className="contentWrapper">
+        <Category />
+        <hr />
+        <Product_header />
+        <Product />
+        <Footer />
+      </div>
+    </div>
   );
 }
 
