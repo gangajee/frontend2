@@ -37,3 +37,18 @@
 .recent {
   padding: 0 5px;
 }
+
+.header_icon {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 20px;
+  margin-right: 25px;
+}
+
+.header_icon button {
+  background-color: #2b3d8b;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

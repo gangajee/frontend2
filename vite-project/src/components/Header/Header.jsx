@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Bell, User } from "lucide-react";
 
 function Header() {
   return (
@@ -8,6 +9,14 @@ function Header() {
         <button className="home">홈</button>
         <button className="popular">인기매물</button>
         <button className="recent">최근 본 상품</button>
+      </div>
+      <div className="header_icon">
+        <button>
+          <Bell />
+        </button>
+        <button>
+          <User />
+        </button>
       </div>
     </div>
   );
