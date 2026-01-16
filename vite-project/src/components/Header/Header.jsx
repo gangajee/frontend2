@@ -7,8 +7,8 @@ function Header() {
       <h1 className="title">통합 마켓</h1>
       <div className="main_button">
         <button className="home">홈</button>
-        <button className="popular">인기매물</button>
         <button className="recent">최근 본 상품</button>
+        <button className="newProduct">상품 등록하기</button>
       </div>
       <div className="header_icon">
         <button>
