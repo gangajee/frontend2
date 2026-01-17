@@ -12,7 +12,7 @@ const Mockdata = [
     id: 0,
     name: "아이폰13 (새상품)",
     price: 800000,
-    category: "digital",
+    category: "Digital",
     thumnail: "/assets/SmartPhone.jpeg",
     platform: "번개장터",
     date: "2026-1-1",
@@ -70,7 +70,7 @@ const Mockdata = [
 
   {
     id: 6,
-    name: "오메가 시계",
+    name: "오데마 시계",
     price: 1000000,
     category: "Watch",
     thumnail: "/assets/Watch.jpeg",
@@ -82,6 +82,12 @@ const Mockdata = [
 function App() {
   const [query, setQuery] = useState("");
   const [search, setSearch] = useState("");
+  const [filter, setFilter] = useState("");
+
+  const FilteredItems =
+    filter === ""
+      ? Mockdata
+      : Mockdata.filter((item) => item.category === filter);
 
   return (
     <div>
@@ -90,10 +96,10 @@ function App() {
         <Search search={search} setSearch={setSearch} setQuery={setQuery} />
       </div>
       <div className="contentWrapper">
-        <Category />
+        <Category setFilter={setFilter} />
         <hr />
         <Product_header />
-        <Product items={Mockdata} query={query} />
+        <Product items={FilteredItems} query={query} />
         <Footer />
       </div>
     </div>
