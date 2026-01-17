@@ -5,6 +5,7 @@ import Product_header from "./components/Product_header/Product_header";
 import Product from "./components/Product/Product";
 import Footer from "./components/Footer/Footer";
 import Search from "./components/Search/Search";
+import { useState } from "react";
 
 const Mockdata = [
   {
@@ -79,17 +80,20 @@ const Mockdata = [
 ];
 
 function App() {
+  const [query, setQuery] = useState("");
+  const [search, setSearch] = useState("");
+
   return (
     <div>
       <div className="abPosition">
-        <Header />
-        <Search />
+        <Header setSearch={setSearch} setQuery={setQuery} />
+        <Search search={search} setSearch={setSearch} setQuery={setQuery} />
       </div>
       <div className="contentWrapper">
         <Category />
         <hr />
         <Product_header />
-        <Product items={Mockdata} />
+        <Product items={Mockdata} query={query} />
         <Footer />
       </div>
     </div>
