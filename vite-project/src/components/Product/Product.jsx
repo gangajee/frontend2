@@ -1,11 +1,14 @@
 import "./Product.css";
 
-function Product() {
+function Product({ items }) {
   return (
     <div className="product">
-      <div className="Smartphone">
-        <img src="" />
-      </div>
+      {items.map((item) => (
+        <div key={item.id} className="product_card">
+          <img src="{item.thumnail}" />
+          <h3>{item.name}</h3>
+        </div>
+      ))}
     </div>
   );
 }

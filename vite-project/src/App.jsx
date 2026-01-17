@@ -12,7 +12,7 @@ const Mockdata = [
     name: "아이폰13 (새상품)",
     price: 800000,
     category: "digital",
-    thumnail: "./assets/SmartPhone.jpeg",
+    thumnail: "/assets/SmartPhone.jpeg",
     platform: "번개장터",
     date: new Date().getTime(),
   },
@@ -22,7 +22,7 @@ const Mockdata = [
     name: "카메라",
     price: 400000,
     category: "Camera",
-    thumnail: "./assets/Camera.jpeg",
+    thumnail: "/assets/Camera.jpeg",
     platform: "중고나라",
     date: new Date().getTime(),
   },
@@ -32,7 +32,7 @@ const Mockdata = [
     name: "1인용 소파",
     price: 100000,
     category: "Interior",
-    thumnail: "./assets/Couch.jpeg",
+    thumnail: "/assets/Couch.jpeg",
     platform: "번개장터",
     date: new Date().getTime(),
   },
@@ -42,7 +42,7 @@ const Mockdata = [
     name: "맥북",
     price: 1000000,
     category: "Laptop",
-    thumnail: "./assets/Laptop.jpeg",
+    thumnail: "/assets/Laptop.jpeg",
     platform: "중고나라",
     date: new Date().getTime(),
   },
@@ -52,7 +52,7 @@ const Mockdata = [
     name: "아이다스 운동화",
     price: 100000,
     category: "Fashion",
-    thumnail: "./assets/Shoes.jpeg",
+    thumnail: "/assets/Shoes.jpeg",
     platform: "번개장터",
     date: new Date().getTime(),
   },
@@ -62,7 +62,7 @@ const Mockdata = [
     name: "서핑 보드(새 상품)",
     price: 50000,
     category: "Sports",
-    thumnail: "./assets/SurfingBoard.jpeg",
+    thumnail: "/assets/SurfingBoard.jpeg",
     platform: "번개장터",
     date: new Date().getTime(),
   },
@@ -72,7 +72,7 @@ const Mockdata = [
     name: "오메가 시계",
     price: 1000000,
     category: "Watch",
-    thumnail: "./assets/Watch.jpeg",
+    thumnail: "/assets/Watch.jpeg",
     platform: "번개장터",
     date: new Date().getTime(),
   },
@@ -89,7 +89,7 @@ function App() {
         <Category />
         <hr />
         <Product_header />
-        <Product />
+        <Product items={Mockdata} />
         <Footer />
       </div>
     </div>
