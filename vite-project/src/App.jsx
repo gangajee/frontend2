@@ -14,7 +14,7 @@ const Mockdata = [
     category: "digital",
     thumnail: "/assets/SmartPhone.jpeg",
     platform: "번개장터",
-    date: new Date().getTime(),
+    date: "2026-1-1",
   },
 
   {
@@ -24,7 +24,7 @@ const Mockdata = [
     category: "Camera",
     thumnail: "/assets/Camera.jpeg",
     platform: "중고나라",
-    date: new Date().getTime(),
+    date: "2025-12-1",
   },
 
   {
@@ -34,7 +34,7 @@ const Mockdata = [
     category: "Interior",
     thumnail: "/assets/Couch.jpeg",
     platform: "번개장터",
-    date: new Date().getTime(),
+    date: "2025-11-10",
   },
 
   {
@@ -44,7 +44,7 @@ const Mockdata = [
     category: "Laptop",
     thumnail: "/assets/Laptop.jpeg",
     platform: "중고나라",
-    date: new Date().getTime(),
+    date: "2026-1-17",
   },
 
   {
@@ -54,7 +54,7 @@ const Mockdata = [
     category: "Fashion",
     thumnail: "/assets/Shoes.jpeg",
     platform: "번개장터",
-    date: new Date().getTime(),
+    date: "2026-2-1",
   },
 
   {
@@ -64,7 +64,7 @@ const Mockdata = [
     category: "Sports",
     thumnail: "/assets/SurfingBoard.jpeg",
     platform: "번개장터",
-    date: new Date().getTime(),
+    date: "2025-12-12",
   },
 
   {
@@ -74,7 +74,7 @@ const Mockdata = [
     category: "Watch",
     thumnail: "/assets/Watch.jpeg",
     platform: "번개장터",
-    date: new Date().getTime(),
+    date: "2026-2-1",
   },
 ];
 
