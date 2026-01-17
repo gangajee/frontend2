@@ -49,36 +49,3 @@
 .dropdown-content li:hover {
   background-color: #f1f1f1;
 }
-
-.product {
-  display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 200px 200px;
-}
-
-.button_setting {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 20px 0;
-}
-
-.more_button {
-  font-size: 20px;
-  font-weight: bold;
-  background-color: #2b3d8b;
-  color: white;
-  border: 3px solid white;
-  border-radius: 7px;
-  padding: 5px 10px;
-  cursor: pointer;
-}
-
-.more_button:hover {
-  background-color: white;
-  color: #2b3d8b;
-  border: 3px solid #2b3d8b;
-  border-radius: 7px;
-  padding: 5px 10px;
-  cursor: pointer;
-}

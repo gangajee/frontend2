@@ -1,7 +1,15 @@
 .product {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  row-gap: 90px;
+  column-gap: 40px;
+  padding: 20px 50px;
   width: 100%;
+}
+
+.product_card img {
+  width: 100%;
+  aspect-ratio: 1/ 1;
+  object-fit: cover;
+  display: block;
 }
